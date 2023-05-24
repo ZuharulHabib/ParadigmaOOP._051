@@ -24,7 +24,7 @@ public:
 
 	pelajar(string pNama, string pSekolah) :
 		orang(pNama),
-		sekolah(pSekolah) { 
+		sekolah(pSekolah) {  
 		cout << "Pelajar dibuat\n" << endl;
 	}
 	~pelajar() {
