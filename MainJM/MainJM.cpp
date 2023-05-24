@@ -6,3 +6,7 @@ using namespace std;
 #include "Manusia.h"
 
 int main() {
+	manusia* varManusia = new manusia("jono");
+	delete varManusia;
+	return 0;
+}
